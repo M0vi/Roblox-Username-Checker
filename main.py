@@ -9,7 +9,7 @@ def remover_acentos(texto):
 
 def obter_palavras_portugues():
     """Obtém uma lista de palavras em português de um arquivo local ou URL."""
-    url = "https://raw.githubusercontent.com/OpenTaal/opentaal-wordlist/master/wordlist.txt"
+    url = "https://raw.githubusercontent.com/pythonprobr/palavras/refs/heads/master/palavras.txt"
     try:
         response = requests.get(url)
         response.raise_for_status()  # Levanta um erro para status codes ruins (4xx ou 5xx)
